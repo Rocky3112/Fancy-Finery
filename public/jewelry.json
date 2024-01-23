@@ -1,0 +1,201 @@
+[
+    {
+      "jewelryName": "Eternal Sparkle Ring",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJoVvMJBXWRg1DXiSnofMaaAFBKsGidEGBg&usqp=CAU",
+      "price": 299.99,
+      "category": "Rings",
+      "size": "Medium",
+      "color": "Silver",
+      "description": "A timeless piece that captures the essence of elegance and grace. This stunning ring features intricate details and a sparkling gemstone."
+    },
+    {
+      "jewelryName": "Golden Cascade Necklace",
+      "photo": "https://audryrosejewelry.com/cdn/shop/files/63A4942.jpg?crop=center&height=1000&v=1704839697&width=1000",
+      "price": 499.99,
+      "category": "Necklaces",
+      "size": "One Size",
+      "color": "Gold",
+      "description": "Adorn yourself with luxury. This exquisite necklace boasts a cascading design with gleaming golden accents, perfect for any special occasion."
+    },
+    {
+      "jewelryName": "Charm Bracelet Collection",
+      "photo": "https://media.bradfordexchange.ca/images/d_can_defaultImage.png/w_1200,h_1200,q_auto,f_auto,dpr_1,e_sharpen:100/subplan-and-parent/922284/Holiday-Charm-Bracelet-Collection-With-Collector%27s-Box",
+      "price": 159.99,
+      "category": "Bracelets",
+      "size": "Adjustable",
+      "color": "Multi-color",
+      "description": "A delightful collection of charm bracelets, each telling a unique story. Express your personality with these vibrant and eye-catching accessories."
+    },
+    {
+      "jewelryName": "Celestial Hoop Earrings",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_RuxCiyGdjMHExjqVFdDRiMbIERQzbJrBA&usqp=CAU",
+      "price": 79.99,
+      "category": "Earrings",
+      "size": "Small",
+      "color": "Rose Gold",
+      "description": "Add a touch of celestial beauty to your look with these charming hoop earrings. The delicate design and rose gold finish make them a standout choice."
+    },
+    {
+      "jewelryName": "Royal Bangles Set",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicHuggr0_VW4CB62iGx9LsIpA_duM0iPoP5X5rQEDtYu6Y9i6NpYIr33Xfrk4DaDbIgU&usqp=CAU",
+      "price": 349.99,
+      "category": "Bangles",
+      "size": "Large",
+      "color": "Royal Blue",
+      "description": "Embrace regal elegance with this set of royal blue bangles. The intricate patterns and vibrant color make a bold and sophisticated statement."
+    },
+    {
+      "jewelryName": "Whimsical Heart Pendant",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxpI6w_JcRJsIqSATMOrTUwKmsq85RBBKdWA&usqp=CAU",
+      "price": 129.99,
+      "category": "Pendants",
+      "size": "Medium",
+      "color": "Silver",
+      "description": "Express your love with this whimsical heart pendant. Crafted with care, it adds a touch of romance to your everyday style."
+    },
+    {
+      "jewelryName": "Dazzling Sapphire Ring",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfp427X9gBkQZNf11pCRKeE1PbZAlqmUSpA&usqp=CAU",
+      "price": 399.99,
+      "category": "Rings",
+      "size": "Small",
+      "color": "Blue",
+      "description": "Make a statement with this dazzling sapphire ring. The vibrant blue hue and intricate setting create a piece that stands out."
+    },
+    {
+      "jewelryName": "Pearl Elegance Necklace",
+      "photo": "https://aprilierre.com/cdn/shop/files/BDFEE927-E2BF-47B7-BF69-D674FA5CAA4B.png?v=1701722261",
+      "price": 599.99,
+      "category": "Necklaces",
+      "size": "One Size",
+      "color": "White",
+      "description": "Radiate elegance with this pearl necklace. The timeless design and lustrous pearls make it a classic addition to any collection."
+    },
+    {
+      "jewelryName": "Leather Charm Bracelet",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2wIS0-aazBexQZj1Z5bLQ21wXgaIJbt7IQ&usqp=CAU",
+      "price": 89.99,
+      "category": "Bracelets",
+      "size": "Adjustable",
+      "color": "Brown",
+      "description": "A rustic charm bracelet with leather accents. Perfect for those who appreciate a blend of boho and classic style."
+    },
+    {
+      "jewelryName": "Rose Gold Hoop Earrings",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYTJ2jfE5YEhXGFRF5e2NxszOflRyIxfqfdw&usqp=CAU",
+      "price": 99.99,
+      "category": "Earrings",
+      "size": "Medium",
+      "color": "Rose Gold",
+      "description": "Enhance your elegance with these rose gold hoop earrings. Versatile and chic, they complement any outfit effortlessly."
+    },
+    {
+      "jewelryName": "Sleek Silver Bangles",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN89XG4aFX9JlvdNltN8efIrRM-uzAObJFnCQfs1HykspUF7aOhLTyGN_in54hDJf38ts&usqp=CAU",
+      "price": 259.99,
+      "category": "Bangles",
+      "size": "Small",
+      "color": "Silver",
+      "description": "Achieve a modern look with these sleek silver bangles. Their minimalist design makes them perfect for stacking and layering."
+    },
+    {
+      "jewelryName": "Moonstone Charm Pendant",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgndmB61Xwi0tFU64MzJCHly6jnCuUXgpjUw&usqp=CAU",
+      "price": 149.99,
+      "category": "Pendants",
+      "size": "Medium",
+      "color": "Moonstone",
+      "description": "Capture the mystique of the moon with this moonstone charm pendant. The iridescent glow adds a touch of magic to your style."
+    },
+    {
+      "jewelryName": "Sapphire Halo Ring",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31lheJtMACW1Oyslu-_WTwUSOMk_lBSU6tQ&usqp=CAU",
+      "price": 449.99,
+      "category": "Rings",
+      "size": "Large",
+      "color": "Sapphire Blue",
+      "description": "A stunning sapphire halo ring that exudes sophistication. The vibrant blue gemstone is surrounded by a halo of sparkling diamonds."
+    },
+    {
+      "jewelryName": "Crystal Drop Necklace",
+      "photo": "https://www.blingtasticjewelry.com/cdn/shop/products/a-golden-spell-necklace-earrings-paparazzi-accessories-necklace-bejeweled-accessories-by-kristie-featuring-paparazzi-jewelry-14445230751841.jpg?v=1675820045&width=1445",
+      "price": 329.99,
+      "category": "Necklaces",
+      "size": "One Size",
+      "color": "Crystal Clear",
+      "description": "Elevate your look with this crystal drop necklace. The timeless design and clear crystals make it a versatile and elegant accessory."
+    },
+    {
+      "jewelryName": "Silver Cuff Bracelet",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfQiJqMyLsmW5I1DX_JXnvlBl_DMQoqX4qA&usqp=CAU",
+      "price": 119.99,
+      "category": "Bracelets",
+      "size": "Adjustable",
+      "color": "Silver",
+      "description": "A sleek silver cuff bracelet that adds a modern touch to any ensemble. Its adjustable design ensures a perfect fit for all wrists."
+    },
+    {
+      "jewelryName": "Diamond Stud Earrings",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNvDQ1wOnieHras8J_wgz1leaQAhChEsXXg&usqp=CAU",
+      "price": 179.99,
+      "category": "Earrings",
+      "size": "Small",
+      "color": "White Gold",
+      "description": "Classic diamond stud earrings for an understated and timeless look. The brilliance of diamonds in a simple and elegant setting."
+    },
+    {
+      "jewelryName": "Gold Leaf Bangles",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9DY75R7RKHx47Nt78nwxqwitK-fVjVhQtw&usqp=CAU",
+      "price": 289.99,
+      "category": "Bangles",
+      "size": "Medium",
+      "color": "Gold",
+      "description": "Adorn your wrists with these gold leaf bangles. The intricate leaf design adds a touch of nature-inspired beauty to your ensemble."
+    },
+    {
+      "jewelryName": "Crystal Drop Necklace",
+      "photo": "https://www.blingtasticjewelry.com/cdn/shop/products/a-golden-spell-necklace-earrings-paparazzi-accessories-necklace-bejeweled-accessories-by-kristie-featuring-paparazzi-jewelry-14445230751841.jpg?v=1675820045&width=1445",
+      "price": 329.99,
+      "category": "Necklaces",
+      "size": "One Size",
+      "color": "Crystal Clear",
+      "description": "Elevate your look with this crystal drop necklace. The timeless design and clear crystals make it a versatile and elegant accessory."
+    },
+    {
+      "jewelryName": "Silver Cuff Bracelet",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfQiJqMyLsmW5I1DX_JXnvlBl_DMQoqX4qA&usqp=CAU",
+      "price": 119.99,
+      "category": "Bracelets",
+      "size": "Adjustable",
+      "color": "Silver",
+      "description": "A sleek silver cuff bracelet that adds a modern touch to any ensemble. Its adjustable design ensures a perfect fit for all wrists."
+    },
+    {
+      "jewelryName": "Diamond Stud Earrings",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNvDQ1wOnieHras8J_wgz1leaQAhChEsXXg&usqp=CAU",
+      "price": 179.99,
+      "category": "Earrings",
+      "size": "Small",
+      "color": "White Gold",
+      "description": "Classic diamond stud earrings for an understated and timeless look. The brilliance of diamonds in a simple and elegant setting."
+    },
+    {
+      "jewelryName": "Gold Leaf Bangles",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9DY75R7RKHx47Nt78nwxqwitK-fVjVhQtw&usqp=CAU",
+      "price": 289.99,
+      "category": "Bangles",
+      "size": "Medium",
+      "color": "Gold",
+      "description": "Adorn your wrists with these gold leaf bangles. The intricate leaf design adds a touch of nature-inspired beauty to your ensemble."
+    },
+    {
+      "jewelryName": "Rose Quartz Pendant",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYyfR-CmdpNleg7JxJv93ZAPKoK_4WvO23w&usqp=CAU",
+      "price": 139.99,
+      "category": "Pendants",
+      "size": "Medium",
+      "color": "Rose Quartz Pink",
+      "description": "Embrace love and compassion with this rose quartz pendant. The soft pink hue and heartwarming energy make it a meaningful accessory."
+    }
+  ]
+  

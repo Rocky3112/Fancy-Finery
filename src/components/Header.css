@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    background-color: #333;
+    padding: 10px;
+    width: 200px;
+    height: 100vh;
+    display: none;
+    transition: right 0.3s;
+    z-index: 2;
+  }
+
+  .menu.open {
+    right: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+  }
+}
