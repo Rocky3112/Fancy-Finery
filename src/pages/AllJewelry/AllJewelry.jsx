@@ -10,7 +10,7 @@ const AllJewelry = () => {
     async function fetchData() {
       try {
         const res = await fetch(
-          "/public/jewelry.json"
+          "http://localhost:5000/jewelryAll"
         );
         const result = await res.json();
         setData(result);
