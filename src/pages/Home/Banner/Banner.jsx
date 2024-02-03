@@ -1,6 +1,6 @@
-import Modal1 from "../../../assets/Model/Model-1.jpg";
-import Modal3 from "../../../assets/Model/Model-3.jpg";
-import Modal4 from "../../../assets/Model/Model-4.jpg";
+import Modal1 from "../../../assets/Model/bannerImg2.jpg";
+import Modal3 from "../../../assets/Model/bannerImg3.webp";
+import Modal4 from "../../../assets/Model/bannerImg1.jpg";
 
 const Banner = () => {
   return (
@@ -42,7 +42,7 @@ const Banner = () => {
         </div>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <img src={Modal4} className="w-full" />
+        <img src={Modal4} className="w-full  object-center" />
         <div className="absolute left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full flex items-center rounded-xl w-1/2">
           <div className="text-white space-y-4 flex flex-col justify-center">
             <h2 className="text-3xl md:text-6xl font-bold mx-4">
