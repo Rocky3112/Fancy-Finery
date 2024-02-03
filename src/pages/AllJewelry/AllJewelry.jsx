@@ -70,9 +70,10 @@ const AllJewelry = () => {
           </div>
         )}
 
+        <div className="text-center">
         {!showAll && !loading && filteredData.length > initialItemsToShow && (
           <button
-            className="mt-4 bg-blue-500 text-white p-2 rounded-md"
+            className="my-5 bg-blue-500  text-white p-2 rounded-md"
             onClick={handleShowAll}
           >
             Show All
@@ -81,12 +82,13 @@ const AllJewelry = () => {
 
         {showAll && !loading && (
           <button
-            className="mt-4 bg-red-500 text-white p-2 rounded-md"
+            className="my-5 bg-orange-600  text-white p-2 rounded-md"
             onClick={handleShowLess}
           >
             Show Less
           </button>
         )}
+        </div>
       </div>
     </div>
   );
