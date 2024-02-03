@@ -5,12 +5,13 @@ const AllJewelry = () => {
   const [data, setData] = useState([]);
   const [category, setCategory] = useState("");
   const [loading, setLoading] = useState(true);
+  
 
   useEffect(() => {
     async function fetchData() {
       try {
         const res = await fetch(
-          "http://localhost:5000/jewelryAll"
+          "https://fancy-finery-server-rocky.vercel.app/jewelryAll"
         );
         const result = await res.json();
         setData(result);

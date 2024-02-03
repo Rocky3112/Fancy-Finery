@@ -40,7 +40,7 @@ const AddJewelry = () => {
           };
 
           // send data to the server
-          fetch("http://localhost:5000/jewelry", {
+          fetch("https://fancy-finery-server-rocky.vercel.app/jewelry", {
             method: "POST",
             headers: {
               "content-type": "application/json",

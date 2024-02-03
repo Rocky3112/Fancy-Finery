@@ -83,7 +83,7 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jewelryAll/${params.id}`),
+          fetch(`https://fancy-finery-server-rocky.vercel.app/jewelryAll/${params.id}`),
       },
       {
         path: "earring-collection/:id",
@@ -93,7 +93,7 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jewelryAll/${params.id}`),
+          fetch(`https://fancy-finery-server-rocky.vercel.app/jewelryAll/${params.id}`),
       },
       {
         path: "bracelets-collection/:id",
@@ -103,7 +103,7 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jewelryAll/${params.id}`),
+          fetch(`https://fancy-finery-server-rocky.vercel.app/jewelryAll/${params.id}`),
       },
       {
         path: "necklace-collection/:id",
@@ -113,7 +113,7 @@ const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/jewelryAll/${params.id}`),
+          fetch(`https://fancy-finery-server-rocky.vercel.app/jewelryAll/${params.id}`),
       },
       {
         path: "/dashboard",

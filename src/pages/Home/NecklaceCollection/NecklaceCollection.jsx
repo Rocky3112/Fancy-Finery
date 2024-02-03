@@ -10,7 +10,7 @@ const NecklaceCollection = () => {
     async function fetchData() {
       try {
         const response = await fetch(
-          "http://localhost:5000/jewelryAll"
+          "https://fancy-finery-server-rocky.vercel.app/jewelryAll"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");

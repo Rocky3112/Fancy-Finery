@@ -16,7 +16,7 @@ const PrivetRoute = ({ children }) => {
 
   if (loading) {
     return (
-      <div className="mt-24">
+      <div className="mt-20 py-36">
         <ClockLoader
           cssOverride={override}
           size={150}
@@ -26,6 +26,7 @@ const PrivetRoute = ({ children }) => {
           aria-label="Loading Spinner"
           data-testid="loader"
         />
+        <h2 className="text-3xl text-orange-600 text-center font-semibold pt-10">Please Log-In First.............</h2>
       </div>
     );
   }

@@ -45,7 +45,7 @@ const SignUp = () => {
                   photoURL: imgURL,
                   role: "client",
                 };
-                fetch("http://localhost:5000/users", {
+                fetch("https://fancy-finery-server-rocky.vercel.app/users", {
                   method: "POST",
                   headers: {
                     "content-type": "application/json",

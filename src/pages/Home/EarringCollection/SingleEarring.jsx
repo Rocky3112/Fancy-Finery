@@ -25,7 +25,7 @@ const SingleEarRing = () => {
         email: user.email,
       };
 
-      fetch("http://localhost:5000/cart", {
+      fetch("https://fancy-finery-server-rocky.vercel.app/cart", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -70,7 +70,7 @@ const SingleEarRing = () => {
     console.log(data);
     data.productId = _id;
 
-    fetch("http://localhost:5000/order", {
+    fetch("https://fancy-finery-server-rocky.vercel.app/order", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
