@@ -5,7 +5,9 @@ const AllJewelry = () => {
   const [data, setData] = useState([]);
   const [category, setCategory] = useState("");
   const [loading, setLoading] = useState(true);
-  
+  const [showAll, setShowAll] = useState(false);
+  const initialItemsToShow = 8;
+  const [itemsToShow, setItemsToShow] = useState(initialItemsToShow);
 
   useEffect(() => {
     async function fetchData() {
@@ -27,6 +29,16 @@ const AllJewelry = () => {
   const filteredData = category
     ? data.filter((item) => item.category === category)
     : data;
+
+  const handleShowAll = () => {
+    setShowAll(true);
+    setItemsToShow(filteredData.length);
+  };
+
+  const handleShowLess = () => {
+    setShowAll(false);
+    setItemsToShow(initialItemsToShow);
+  };
 
   return (
     <div className="px-4">
@@ -52,10 +64,28 @@ const AllJewelry = () => {
           </p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {filteredData.map((item) => (
+            {filteredData.slice(0, showAll ? filteredData.length : itemsToShow).map((item) => (
               <AllCollection key={item._id} item={item}></AllCollection>
             ))}
           </div>
+        )}
+
+        {!showAll && !loading && filteredData.length > initialItemsToShow && (
+          <button
+            className="mt-4 bg-blue-500 text-white p-2 rounded-md"
+            onClick={handleShowAll}
+          >
+            Show All
+          </button>
+        )}
+
+        {showAll && !loading && (
+          <button
+            className="mt-4 bg-red-500 text-white p-2 rounded-md"
+            onClick={handleShowLess}
+          >
+            Show Less
+          </button>
         )}
       </div>
     </div>
