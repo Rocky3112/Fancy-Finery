@@ -25,7 +25,7 @@ const Header = () => {
     <div className="flex justify-between items-center text-white px-2 md:px-8 py-3   bg-gray-800 fixed top-0 left-0 right-0 z-20 opacity-95">
       <div className="flex items-center gap-2">
         <img className="h-10 w-10 bg-black rounded-full" src={Logo} alt="" />
-        <h1 className="text-3xl font-bold italic text-green-500">
+        <h1 className="text-3xl font-bold italic text-[#ecd437]">
         Fancy Finery
         </h1>
       </div>
@@ -65,7 +65,7 @@ const Header = () => {
               <div className="flex gap-4 items-center">
                 <button
                   onClick={handleLogOut}
-                  className="font-medium px-3 py-2 text-green-500 hover:bg-green-500 hover:text-white border border-green-500 rounded-sm dark:text-white"
+                  className="font-medium px-3 py-2 text-[#CDB30C] hover:bg-[#CDB30C] hover:text-white border border-[#CDB30C] rounded-sm dark:text-white"
                 >
                   Log Out
                 </button>

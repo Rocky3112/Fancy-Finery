@@ -1,66 +1,55 @@
-import Modal1 from "../../../assets/Model/bannerImg2.jpg";
-import Modal3 from "../../../assets/Model/bannerImg3.webp";
-import Modal4 from "../../../assets/Model/bannerImg1.jpg";
-
+// import Modal1 from "../../../assets/Model/bannerImg2.jpg";
+// import Modal3 from "../../../assets/Model/bannerImg3.webp";
+// import Modal4 from "../../../assets/Model/bannerImg1.jpg";
+import './Banner.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+// import Slider from 'react-slick';
 const Banner = () => {
-  return (
-    <div className="carousel h-[400px] md:h-[700px]">
-      <div id="slide1" className="carousel-item relative w-full">
-        <img src={Modal1} className="w-full" />
-        <div className="absolute left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full flex items-center rounded-xl w-1/2">
-          <div className="text-white space-y-4 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-6xl font-bold mx-4">
-              Discover the Joy of Beauty
-            </h2>
-          </div>
+    var settings = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+    return (
+        <div className=''>
+
+            <div className='banner_arrow '>
+                <Slider {...settings}>
+                    <div className='banner_bg01 lg:px-32 md:px-28 sm:px-18 px-12 py-36 text-[#fff] '>
+                        <div className='z-10 relative '>
+                            <p className='font-medium text-sm tracking-widest uppercase text-[#CDB30C]'>welcome</p>
+                            <h2 className='lg:text-5xl md:text-3xl sm:text-4xl text-3xl font-bold lg:w-[70%] py-3 uppercase'>Professional & Creative Ornaments Design </h2>
+                            <p className='py-2 lg:w-[50%]'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div className='z-10 relative flex items-center gap-4 flex-wrap mt-4'>
+                            <button className='py-3 px-8 text-sm tracking-widest font-bold bg-[#CDB30C] text-white uppercase hover:bg-[#fff] hover:text-[#262626] duration-300 cursor-pointer rounded '>get started</button>
+                            <button className='py-3 px-8 text-sm tracking-widest font-bold bg-[#fff] text-[#262626] uppercase hover:bg-[#CDB30C] hover:text-[#fff] duration-300 cursor-pointer rounded'>New Arrival</button>
+                        </div>
+                    </div>
+                    <div className='banner_bg02 lg:px-32 md:px-28 sm:px-18 px-12 py-36 text-[#fff]'>
+                        <div className='z-10 relative '>
+                            <p className='font-medium text-sm tracking-widest uppercase text-[#CDB30C]'>welcome</p>
+                            <h2 className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold lg:w-[60%] py-3 capitalize'>Digital Innovation Company that Creates Solution</h2>
+                            <p className='py-2 lg:w-[50%]'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div className='z-10 relative flex items-center gap-4 flex-wrap mt-4'>
+                            <button className='py-3 px-8 text-sm tracking-widest font-bold bg-[#CDB30C] text-white uppercase hover:bg-[#fff] hover:text-[#262626] duration-300 cursor-pointer rounded'>get started</button>
+                            <button className='py-3 px-8 text-sm tracking-widest font-bold bg-[#fff] text-[#262626] uppercase hover:bg-[#CDB30C] hover:text-[#fff] duration-300 cursor-pointer rounded'>New Arrival</button>
+                        </div>
+                    </div>
+                </Slider>
+            </div>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn bg-inherit btn-circle">
-            ❮
-          </a>
-          <a href="#slide2" className="btn bg-inherit btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide2" className="carousel-item relative w-full">
-        <img src={Modal3} className="w-full" />
-        <div className="absolute left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full flex items-center rounded-xl w-1/2">
-          <div className="text-white space-y-4 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-6xl font-bold mx-4">
-              Sunshine of your life
-            </h2>
-          </div>
-        </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn bg-inherit btn-circle">
-            ❮
-          </a>
-          <a href="#slide3" className="btn bg-inherit btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide3" className="carousel-item relative w-full">
-        <img src={Modal4} className="w-full  object-center" />
-        <div className="absolute left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full flex items-center rounded-xl w-1/2">
-          <div className="text-white space-y-4 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-6xl font-bold mx-4">
-              Wear your brand
-            </h2>
-          </div>
-        </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn bg-inherit btn-circle">
-            ❮
-          </a>
-          <a href="#slide1" className="btn bg-inherit btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Banner;
