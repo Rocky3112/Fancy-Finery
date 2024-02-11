@@ -1,0 +1,18 @@
+.counter_bg{
+    background-image: url('../../../assets/counter-bg.webp'), linear-gradient(to right, #120101, #4b0506);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    
+    position: relative;
+}
+.counter_bg::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color:#26262690;
+}
