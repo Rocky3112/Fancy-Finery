@@ -21,7 +21,7 @@ const AllCollection = ({ item }) => {
       to={linkTo}
       className="bg-white p-4 rounded-md shadow-2xl hover:bg-gray-300 mb-4"
     >
-      <img className="w-24 h-24 mx-auto mb-2" src={photo} alt="" />
+      <img className="w-48 rounded-xl h-36 mx-auto mb-2" src={photo} alt="" />
       <h3 className="text-center text-lg font-medium text-gray-800 mb-3">
         {jewelryName}
       </h3>
