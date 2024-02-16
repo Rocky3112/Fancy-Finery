@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import BestDesigner from "../BestDesigner/BestDesigner";
 import Category from "../Category/Category";
 import CustomDesign from "../CustomDesign/CustomDesign";
 import PerfectCreation from "../PerfectCreation/PerfectCreation";
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="container mx-auto">
       <Category />
       <PerfectCreation />
+      <BestDesigner></BestDesigner>
       <TotalOverview />
       <CustomDesign />
       </div>
