@@ -7,7 +7,7 @@ import Necklaces from "../../../assets/Category/Necklaces-02.png"
 const Category = () => {
   return (
     <div className="mt-8 px-4 md:p-0">
-      <h1 className="text-3xl font-bold text-gray-800 underline decoration-wavy decoration-green-400 text-center mb-8 dark:text-white">
+      <h1 className="text-3xl font-bold text-gray-800 underline decoration-wavy decoration-yellow-300 text-center mb-8 dark:text-white">
         Jewelry Collection
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
@@ -15,7 +15,7 @@ const Category = () => {
           to={`/ring-collection`}
           className="bg-white px-4 py-10 rounded-md shadow-2xl hover:bg-gray-300"
         >
-          <img className="w-24 h-24 mx-auto mb-2" src={Rings} alt="" />
+          <img className="w-32 h-24 mx-auto mb-2 hover:scale-150 p-3 duration-1000" src={Rings} alt="" />
           <h3 className="text-center text-lg font-medium text-gray-800">
             Rings
           </h3>
@@ -24,7 +24,7 @@ const Category = () => {
           to={`/earring-collection`}
           className="bg-white px-4 py-10 rounded-md shadow-2xl hover:bg-gray-300"
         >
-          <img className="w-24 h-24 mx-auto mb-2" src={Earrings} alt="" />
+          <img className="w-32 h-24 mx-auto mb-2 hover:scale-150 p-3 duration-1000" src={Earrings} alt="" />
           <h3 className="text-center text-lg font-medium text-gray-800">
           Earrings
           </h3>
@@ -33,7 +33,7 @@ const Category = () => {
           to={`/bracelets-collection`}
           className="bg-white px-4 py-10 rounded-md shadow-2xl hover:bg-gray-300"
         >
-          <img className="w-24 h-24 mx-auto mb-2" src={Bracelets} alt="" />
+          <img className="w-32 h-24 mx-auto mb-2 hover:scale-150 p-3 duration-1000" src={Bracelets} alt="" />
           <h3 className="text-center text-lg font-medium text-gray-800">
           Bracelets
           </h3>
@@ -42,7 +42,7 @@ const Category = () => {
           to={`/necklace-collection`}
           className="bg-white px-4 py-10 rounded-md shadow-2xl hover:bg-gray-300"
         >
-          <img className="w-24 h-24 mx-auto mb-2" src={Necklaces} alt="" />
+          <img className="w-32 h-24 mx-auto mb-2 hover:scale-150 p-3 duration-1000" src={Necklaces} alt="" />
           <h3 className="text-center text-lg font-medium text-gray-800">
           Necklaces
           </h3>

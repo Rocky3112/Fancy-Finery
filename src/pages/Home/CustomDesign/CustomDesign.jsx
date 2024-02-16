@@ -4,7 +4,7 @@ import ring1 from "../../../assets/Category/Gold-1.png";
 const CustomDesign = () => {
   return (
     <div className="mt-16 px-4 md:p-0">
-      <h1 className="text-3xl font-bold text-gray-800 underline decoration-wavy decoration-green-400 text-center mb-4 dark:text-white">
+      <h1 className="text-3xl font-bold text-gray-800 underline decoration-wavy decoration-yellow-300 text-center mb-4 dark:text-white">
         Custom Design
       </h1>
       <div className="flex flex-col md:flex-row gap-4 justify-evenly items-center mt-8">
@@ -20,7 +20,7 @@ const CustomDesign = () => {
             <Link to={`/ring-collection`}>CONFIGURE NOW</Link>
           </button>
         </div>
-        <img className="h-72 w-60" src={ring1} alt="" />
+        <img className="h-72 w-60 hover:scale-110 p-3 duration-1000" src={ring1} alt="" />
       </div>
     </div>
   );

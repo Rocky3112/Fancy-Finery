@@ -9,7 +9,6 @@ const Home = () => {
     <div className="mb-4">
       <Banner />
       <div className="container mx-auto">
-
       <Category />
       <PerfectCreation />
       <TotalOverview />
