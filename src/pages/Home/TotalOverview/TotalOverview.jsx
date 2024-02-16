@@ -10,13 +10,13 @@ import ScrollTrigger from 'react-scroll-trigger';
 const TotalOverview = () => {
     const [countStart, setCountStart] = useState(false)
     return (
-        <div className="lg:px-40 md:px-28 sm:px-18 px-12 py-20 counter_bg bg-fixed">
+        <div className="lg:px-10 md:px-28 sm:px-18 px-12 py-20 counter_bg bg-fixed">
             <div className='z-10 relative'>
                 <ScrollTrigger 
                  onEnter={() => setCountStart(true)}
                  onExit={() => setCountStart(false)}
-                className='grid lg:grid-cols-4 gap-6'>
-                        <div className='flex items-center space-x-3'>
+                className='flex items-center justify-evenly '>
+                        <div className='flex items-center space-x-3 '>
                             <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
                                 <p><GrNotes /></p>
                             </div>
@@ -37,8 +37,8 @@ const TotalOverview = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center space-x-3'>
-                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                        <div className='flex items-center space-x-3 '>
+                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
                                 <p><GiHumanTarget /></p>
                             </div>
 
@@ -58,8 +58,8 @@ const TotalOverview = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center space-x-3'>
-                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                        <div className='flex items-center space-x-3 '>
+                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
                                 <p><MdOutlineRoomService /></p>
                             </div>
 
@@ -79,7 +79,7 @@ const TotalOverview = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center space-x-3'>
+                        <div className='flex items-center space-x-3 '>
                             <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
                                 <p><LuSmartphoneNfc /></p>
                             </div>

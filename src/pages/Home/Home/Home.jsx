@@ -13,9 +13,9 @@ const Home = () => {
       <Category />
       <PerfectCreation />
       <BestDesigner></BestDesigner>
+      </div>
       <TotalOverview />
       <CustomDesign />
-      </div>
     </div>
   );
 };
