@@ -5,9 +5,9 @@
 https://fancy-finery.web.app/
 
 - User Management & Security:Utilized Firebase for secure user registration process and authentication system.
-• User Dashboard: Designed a dashboard for students to manage profiles, explore Jwellery design, cart item and
+- User Dashboard: Designed a dashboard for students to manage profiles, explore Jwellery design, cart item and
 payment via SSLcommerz.
-• Admin Control Panel:Developed an efficient admin dashboard for overseeing use add items and manage users.
+- Admin Control Panel:Developed an efficient admin dashboard for overseeing use add items and manage users.
 
 # All-Jewelry-Page:
 
