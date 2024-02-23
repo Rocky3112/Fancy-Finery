@@ -3,6 +3,7 @@ import BestDesigner from "../BestDesigner/BestDesigner";
 import Category from "../Category/Category";
 import CustomDesign from "../CustomDesign/CustomDesign";
 import PerfectCreation from "../PerfectCreation/PerfectCreation";
+import Review from "../Review/Review";
 import TotalOverview from "../TotalOverview/TotalOverview";
 
 const Home = () => {
@@ -13,9 +14,10 @@ const Home = () => {
       <Category />
       <PerfectCreation />
       <BestDesigner></BestDesigner>
-      </div>
       <TotalOverview />
       <CustomDesign />
+      <Review />
+      </div>
     </div>
   );
 };

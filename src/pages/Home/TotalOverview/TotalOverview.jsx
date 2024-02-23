@@ -10,19 +10,19 @@ import ScrollTrigger from 'react-scroll-trigger';
 const TotalOverview = () => {
     const [countStart, setCountStart] = useState(false)
     return (
-        <div className="lg:px-10 md:px-28 sm:px-18 px-12 py-20 counter_bg bg-fixed">
+        <div className="lg:px-6 md:px-6 sm:px-3 px-3 lg:py-20 counter_bg bg-fixed py-8">
             <div className='z-10 relative'>
                 <ScrollTrigger 
                  onEnter={() => setCountStart(true)}
                  onExit={() => setCountStart(false)}
-                className='flex items-center justify-evenly '>
+                className='grid lg:grid-cols-4 grid-cols-2'>
                         <div className='flex items-center space-x-3 '>
-                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] lg:text-4xl text-xl'>
                                 <p><GrNotes /></p>
                             </div>
 
                             <div>
-                                <p className='text-4xl text-[#fff] font-bold py-1'>
+                                <p className='lg:text-4xl text-xl text-[#fff] font-bold py-1'>
                                     {
                                       countStart  &&<CountUp
                                         start={0}
@@ -38,12 +38,12 @@ const TotalOverview = () => {
                         </div>
 
                         <div className='flex items-center space-x-3 '>
-                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] lg:text-4xl text-xl'>
                                 <p><GiHumanTarget /></p>
                             </div>
 
                             <div className=''>
-                                <p className='text-4xl text-[#fff] font-bold py-1'>
+                                <p className='lg:text-4xl text-xl text-[#fff] font-bold py-1'>
                                 {
                                       countStart  &&<CountUp
                                         start={0}
@@ -59,12 +59,12 @@ const TotalOverview = () => {
                         </div>
 
                         <div className='flex items-center space-x-3 '>
-                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                            <div className='px-3 py-4 bg-[#CDB30C] rounded text-[#fff] lg:text-4xl text-xl'>
                                 <p><MdOutlineRoomService /></p>
                             </div>
 
                             <div>
-                                <p className='text-4xl text-[#fff] font-bold py-1'>
+                                <p className='lg:text-4xl text-xl text-[#fff] font-bold py-1'>
                                 {
                                       countStart  &&<CountUp
                                         start={0}
@@ -80,12 +80,12 @@ const TotalOverview = () => {
                         </div>
 
                         <div className='flex items-center space-x-3 '>
-                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] text-4xl'>
+                            <div className='px-4 py-4 bg-[#CDB30C] rounded text-[#fff] lg:text-4xl text-xl'>
                                 <p><LuSmartphoneNfc /></p>
                             </div>
 
                             <div>
-                                <p className='text-4xl text-[#fff] font-bold py-1'>
+                                <p className='lg:text-4xl text-xl text-[#fff] font-bold py-1'>
                                 {
                                       countStart  &&<CountUp
                                         start={0}

@@ -16,7 +16,7 @@ const BestDesigner = () => {
   // console.log(teamX);
   return (
    
-      <div className="lg:px-20 md:px-28 sm:px-18 px-12 py-12">
+      <div className="lg:px-6 md:px-6 sm:px-10 px-10 py-12">
             <div>
                 <div className="py-4 flex items-center justify-between">
                     <h2 className="lg:text-4xl font-bold lg:w-[40%] leading-10 team_head">PROFESSIONAL CREATIVE TEAM MEMBERS</h2>

@@ -7,9 +7,9 @@ const CustomDesign = () => {
       <h1 className="text-3xl font-bold text-gray-800 underline decoration-wavy decoration-yellow-300 text-center mb-4 dark:text-white">
         Custom Design
       </h1>
-      <div className="flex flex-col md:flex-row gap-4 justify-evenly items-center mt-8">
+      <div className="flex flex-col md:flex-row gap-4 justify-between items-center mt-8 lg:px-16">
         <div>
-          <h3 className="text-4xl md:text-6xlxl font-bold text-gray-800 mb-3 dark:text-white">
+          <h3 className="text-4xl md:text-6xl font-bold text-gray-800 mb-3 dark:text-white">
             Design Your Dream <br /> Rings yourself
           </h3>
           <p className="text-gray-600 mb-3 dark:text-white">
@@ -20,7 +20,7 @@ const CustomDesign = () => {
             <Link to={`/ring-collection`}>CONFIGURE NOW</Link>
           </button>
         </div>
-        <img className="h-72 w-60 hover:scale-110 p-3 duration-1000" src={ring1} alt="" />
+        <img className="w-2/5 hover:scale-110 p-3 duration-1000 opacity-70 hover:opacity-100" src={ring1} alt="" />
       </div>
     </div>
   );

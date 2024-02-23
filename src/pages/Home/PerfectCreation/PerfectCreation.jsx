@@ -7,7 +7,7 @@ import { SiAltiumdesigner } from "react-icons/si";
 
 const PerfectCreation = () => {
     return (
-        <div className="lg:px-20 md:px-28 sm:px-18 px-12 py-20 solution_bg">
+        <div className="lg:px-6 md:px-6 sm:px-10 px-10 py-20 solution_bg">
             <div className='grid lg:grid-cols-2 gap-4'>
 
                 <div className='text-[#CDB30C] text-center lg:text-start'>

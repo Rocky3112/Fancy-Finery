@@ -1,5 +1,5 @@
 .banner_bg01{
-    background-image:url('../../../assets/Model/bannerImg1.jpg');
+    background-image:url('../../../assets/Model/b1.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -15,7 +15,7 @@
     background-color:#2626262f;
 }
 .banner_bg02{
-    background-image:url('../../../assets/Model/bannerImg2.jpg');
+    background-image:url('../../../assets/Model/b2.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;

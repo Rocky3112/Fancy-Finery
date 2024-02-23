@@ -1,0 +1,58 @@
+[
+    {
+        "name":"Rocky Babu",
+        "title":"Designer",
+        "rating":"4.5",
+        "img":"https://audryrosejewelry.com/cdn/shop/files/63A4942.jpg?crop=center&height=1000&v=1704839697&width=1000",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Md Mehedi",
+        "title":"Designer",
+        "rating":"3.5",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicHuggr0_VW4CB62iGx9LsIpA_duM0iPoP5X5rQEDtYu6Y9i6NpYIr33Xfrk4DaDbIgU&usqp=CAU",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Mrs. jonki",
+        "title":"Designer",
+        "rating":"4.00",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2wIS0-aazBexQZj1Z5bLQ21wXgaIJbt7IQ&usqp=CAU",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Laba man",
+        "title":"Designer",
+        "rating":"3.5",
+        "img":"https://i.ibb.co/gtnsK9C/person-3-jpg.webp",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Al Amin",
+        "title":"Designer",
+        "rating":"4.5",
+        "img":"https://i.ibb.co/8D4qCFT/person-1-jpg.webp",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Md Rakib",
+        "title":"Designer",
+        "rating":"3.5",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJoVvMJBXWRg1DXiSnofMaaAFBKsGidEGBg&usqp=CAU",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Mrs. Pakhi",
+        "title":"Designer",
+        "rating":"4.00",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicHuggr0_VW4CB62iGx9LsIpA_duM0iPoP5X5rQEDtYu6Y9i6NpYIr33Xfrk4DaDbIgU&usqp=CAU",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+    {
+        "name":"Md Mehedi",
+        "title":"web developer",
+        "rating":"2.5",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2wIS0-aazBexQZj1Z5bLQ21wXgaIJbt7IQ&usqp=CAU",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    }
+]
